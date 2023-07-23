@@ -1,0 +1,15 @@
+You need to add the root of static in settings
+so the project find the static files
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static' 
+]
+
+To apply the styles to any html file add:
+
+<!DOCTYPE html>
+{% load static %}
+
+then 
+    <link rel="stylesheet" type='text/css' 
+    href="{% static 'styles/main.css' %}">
