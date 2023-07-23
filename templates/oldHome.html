@@ -1,0 +1,22 @@
+<!-- 
+When having several apps for a project
+is adviced to include the specific html files specific to the app
+in its own template folder like base/templates/base
+
+and then keep the global styles in the root dir template
+-->
+
+{% extends 'main.html'%} 
+
+{% block content %}
+    <h1>Home Template</h1>
+    <div>
+        <div>
+            {%for room in rooms%}
+                <div>
+                    <h4>{{room.id}} -- {{room.name}}</h4>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
