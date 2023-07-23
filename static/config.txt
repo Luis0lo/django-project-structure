@@ -13,3 +13,7 @@ To apply the styles to any html file add:
 then 
     <link rel="stylesheet" type='text/css' 
     href="{% static 'styles/main.css' %}">
+
+to add an image drop it inside images folder and then
+
+<img class='testImage' src="{% static 'images/balance.jpg' %}" alt="">

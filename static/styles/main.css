@@ -1,3 +1,7 @@
 body {
   background-color: azure;
 }
+
+.testImage {
+  width: 300px;
+}
