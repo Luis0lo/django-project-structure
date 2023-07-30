@@ -22,7 +22,12 @@
 ### Topics
 
 - How to link pages
+- How to add Models
+- Query the database
+- Render query inside a template
 
 ### Run Locally
 
 - python manage.py runserver
+
+
