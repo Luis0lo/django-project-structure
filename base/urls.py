@@ -6,6 +6,8 @@ urlpatterns = [
     path('room/<str:pk>/', views.room, name='room'),
 ]
 
+# My notes
+
 '''
 by adding name (name='room') and referencing as per the example in home.html
 you can now change the name of the path without having to manually change on your pages

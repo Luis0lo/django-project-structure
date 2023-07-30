@@ -18,3 +18,11 @@
 ## Useful video tutorial
 
 [No beating around the bush 7 hour](https://www.youtube.com/watch?v=PtQiiknWUcI)
+
+### Topics
+
+- How to link pages
+
+### Run Locally
+
+- python manage.py runserver

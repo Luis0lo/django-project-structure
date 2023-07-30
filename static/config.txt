@@ -7,7 +7,7 @@ STATICFILES_DIRS = [
 
 To apply the styles to any html file add:
 
-<!DOCTYPE html>
+<!DOCTYPE html> // this on the base template to affect all of them
 {% load static %}
 
 then 
